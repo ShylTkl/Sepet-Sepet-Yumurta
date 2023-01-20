@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepette Net %20 İndirim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div id="sepe1" style="margin-top: 10px;" class="sepet sepet-1">
+            <img class="img" src="./img/images.jfif" alt="">
+            <div class="text">
+                <p class="isim">Vintage Sırt Çantası</p>
+                <p style="font-size: 22px; color: orange;">$25.99 <span style="font-size: 16px; text-decoration: line-through; color: grey;">$34.99</span></p>
+                <div class="tus"><input onclick="azalt1()" id="azalt1" class="azalt " type="button" value="-"> <input disabled id="input1" class="input "  type="text" value="0"  > <input onclick="arttir1()" id="arttir1" class="arttir " type="button" value="+"></div>
+                <input  id="sil1" style="width:165px;margin-left: 50px;margin-top: 10px; border: none; background-color: bisque; cursor: pointer;" type="button" value="remove">
+            </div>
+            
+        </div>
+        <div id="sepe2" class="sepet sepet-2">
+            <img class="img" src="./img/ayakkabı.jfif" alt="">
+            <div class="text">
+                <p class="isim">Vintage Air Jordan</p>
+                <p style="font-size: 22px; color: orange;">$48.99 <span style="font-size: 16px; text-decoration: line-through; color: grey;">$59.99</span></p>
+                <div class="tus"><input onclick="azalt2()" class="azalt " id="azalt2" type="button" value="-"> <input disabled class="input " id="input2" type="text" value="0" > <input onclick="arttir2()" class= "arttir " id="arttir2" type="button" value="+"></div>
+                <input id="sil2" style="width:165px;margin-left: 43px;margin-top: 10px; border: none; background-color: bisque; cursor: pointer;" type="button" value="remove">
+            </div>
+            
+        </div>
+        <div id="sepe3" class= "sepet sepet-3">
+            <img class="img" src="./img/saast.jfif" alt="">
+            <div class="text">
+
+                <p class="isim">Vintage Duvar Saati</p>
+                <p style="font-size: 22px; color: orange;">$39.99 <span style="font-size: 16px; text-decoration: line-through; color: grey;">$45.99</span></p>
+                <div class="tus"><input onclick="azalt3()" id="azalt3" class="azalt " type="button" value="-"> <input disabled id="input3" class="input " type="text" value="0" > <input onclick="arttir3()" id="arttir3" class="arttir " type="button" value="+"></div>
+                <input id="sil3" style="width:165px;margin-left: 50px;margin-top: 10px; border: none; background-color: bisque; cursor: pointer;" type="button"  value="remove">
+            </div>
+            
+        </div>
+
+        <ul class="totalList">
+            <li>
+                <p >Ara Toplam:</p> <input class="ara" disabled id="aratop" style="background-color: bisque; border: none;" value="" type="text"> <span class="dolar">$</span>
+            </li>
+            <li>
+                <p >KDV(%18):</p> <input class="ara"  disabled id="kdv" style="background-color: bisque; border: none;" value="" type="text"> <span class="dolar">$</span>
+            </li>
+            <li>
+                <p >Sepette (%20):</p> <input class="ara"  disabled id="indirim" style="background-color: bisque; border: none;" value="" type="text"> <span class="dolar">$</span>
+            </li>
+            <li>
+                <p >Toplam:</p> <input class="ara"  disabled id="total" style="background-color: bisque; border: none;" value="" type="text"> <span class="dolar">$</span>
+            </li>
+        </ul>
+    </div>
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
+

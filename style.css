@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none
+    
+}   
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* align-items: center; */
+    margin-top: 25px;
+    background-color: bisque;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url("./img/bgc.jfif");
+    background-size: cover;
+}
+
+.sepet{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    width: 150px;
+    height: 175px;
+}
+
+.isim{
+    font-size: 28px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+.tus{
+    padding-top: 10px;
+}
+
+.arttir{
+
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-weight: 700;
+    position: relative;
+    left: -35px;
+    z-index: 1;
+}
+
+.azalt{
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-weight: 700;
+    position: relative;
+    left: 35px;
+    z-index: 1;
+}
+.input{
+    height: 30px;
+    border: none;
+    text-align: center;
+    background-color: white;
+}
+
+.azalt:hover{
+    cursor: pointer;
+}
+.arttir:hover{
+    cursor: pointer;
+}
+
+.totalList{
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.totalList li{
+    padding-top: 0.1rem;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ara{
+    position: relative;
+    left: 100px;
+}
+
+.dolar{
+    position: relative;
+    
+}
