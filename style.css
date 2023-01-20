@@ -57,6 +57,7 @@ body{
     position: relative;
     left: -35px;
     z-index: 1;
+    background-color: white;
 }
 
 .azalt{
@@ -67,6 +68,7 @@ body{
     position: relative;
     left: 35px;
     z-index: 1;
+    background-color: white;
 }
 .input{
     height: 30px;
