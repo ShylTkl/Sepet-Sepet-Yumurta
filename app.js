@@ -101,35 +101,41 @@ function azalt3(){
 s1?.addEventListener("click", sill)
 function sill(){
     div1?.remove()
-    let sum =  Number(inpu2.value)*48.99 + Number(inpu3.value)*39.99;
+    inpu1.value=0
+    let sum = Number(inpu1.value)*25.99 + Number(inpu2.value)*48.99 + Number(inpu3.value)*39.99;
     sum =sum.toFixed(2)
 console.log(sum);
 aratop.value=sum
 kdv.value=(sum/100*18).toFixed(2)
 indirim.value=((Number(sum)+Number(kdv.value))/100*20).toFixed(2)
 tota.value=(Number(sum)+Number(kdv.value)-Number(indirim.value)).toFixed(2)
+
 }
 s2?.addEventListener("click", sill2)
 function sill2(){
     div2?.remove()
-    let sum = Number(inpu1.value)*25.99 + Number(inpu3.value)*39.99;
+    inpu2.value=0
+    let sum = Number(inpu1.value)*25.99 + Number(inpu2.value)*48.99 + Number(inpu3.value)*39.99;
     sum =sum.toFixed(2)
 console.log(sum);
 aratop.value=sum
 kdv.value=(sum/100*18).toFixed(2)
 indirim.value=((Number(sum)+Number(kdv.value))/100*20).toFixed(2)
 tota.value=(Number(sum)+Number(kdv.value)-Number(indirim.value)).toFixed(2)
+
 }
 s3?.addEventListener("click", sill3)
 function sill3(){
     div3?.remove()
-    let sum = Number(inpu1.value)*25.99 + Number(inpu2.value)*48.99 ;
+    inpu3.value=0
+    let sum = Number(inpu1.value)*25.99 + Number(inpu2.value)*48.99 + Number(inpu3.value)*39.99;
     sum =sum.toFixed(2)
 console.log(sum);
 aratop.value=sum
 kdv.value=(sum/100*18).toFixed(2)
 indirim.value=((Number(sum)+Number(kdv.value))/100*20).toFixed(2)
 tota.value=(Number(sum)+Number(kdv.value)-Number(indirim.value)).toFixed(2)
+
 }
 
 
