@@ -17,6 +17,9 @@ let s3 = document.querySelector('#sil3');
 let div1 = document.querySelector('#sepe1');
 let div2 = document.querySelector('#sepe2');
 let div3 = document.querySelector('#sepe3');
+let attt1 =document.querySelector('.attop1');
+let attt2 =document.querySelector('.attop2');
+let attt3 =document.querySelector('.attop3');
 
 
 function arttir1(){
@@ -28,6 +31,7 @@ aratop.value=sum
 kdv.value=(sum/100*18).toFixed(2)
 indirim.value=((Number(sum)+Number(kdv.value))/100*20).toFixed(2)
 tota.value=(Number(sum)+Number(kdv.value)-Number(indirim.value)).toFixed(2)
+attt1.value=Number((inpu1.value)*25.99).toFixed(2)
 
 }
 function arttir2(){
@@ -39,6 +43,7 @@ aratop.value=sum
 kdv.value=(sum/100*18).toFixed(2)
 indirim.value=((Number(sum)+Number(kdv.value))/100*20).toFixed(2)
 tota.value=(Number(sum)+Number(kdv.value)-Number(indirim.value)).toFixed(2)
+attt2.value=Number((inpu2.value)*48.99).toFixed(2)
 }
 function arttir3(){
     inpu3.value ++
@@ -49,6 +54,7 @@ aratop.value=sum
 kdv.value=(sum/100*18).toFixed(2)
 indirim.value=((Number(sum)+Number(kdv.value))/100*20).toFixed(2)
 tota.value=(Number(sum)+Number(kdv.value)-Number(indirim.value)).toFixed(2)
+attt3.value=Number((inpu3.value)*39.99).toFixed(2)
 }
 function azalt1(){
     if( !(inpu1.value <= 0)){
@@ -60,6 +66,7 @@ function azalt1(){
     kdv.value=(sum/100*18).toFixed(2)
     indirim.value=((Number(sum)+Number(kdv.value))/100*20).toFixed(2)
     tota.value=(Number(sum)+Number(kdv.value)-Number(indirim.value)).toFixed(2)
+    attt1.value=Number((inpu1.value)*25.99).toFixed(2)
 
     }else{
         console.log("eksi");
@@ -78,6 +85,7 @@ function azalt2(){
     kdv.value=(sum/100*18).toFixed(2)
     indirim.value=((Number(sum)+Number(kdv.value))/100*20).toFixed(2)
     tota.value=(Number(sum)+Number(kdv.value)-Number(indirim.value)).toFixed(2)
+    attt2.value=Number((inpu2.value)*48.99).toFixed(2)
     }else{
         console.log("eksi");
     }
@@ -93,6 +101,7 @@ function azalt3(){
     kdv.value=(sum/100*18).toFixed(2)
     indirim.value=((Number(sum)+Number(kdv.value))/100*20).toFixed(2)
     tota.value=(Number(sum)+Number(kdv.value)-Number(indirim.value)).toFixed(2)
+    attt3.value=Number((inpu3.value)*39.99).toFixed(2)
 
     }else{
         console.log("eksi");
