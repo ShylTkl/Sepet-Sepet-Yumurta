@@ -14,8 +14,9 @@
     margin-top: 25px;
     background-color: bisque;
     width: 500px;
-    height: 700px;
+    /* height: 700px; */
     position: absolute;
+    padding-bottom: 20px;
 }
 body{
     display: flex;
