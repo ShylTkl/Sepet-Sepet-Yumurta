@@ -97,12 +97,13 @@ body{
     justify-content: space-between;
 }
 
+
 .ara{
-    position: relative;
-    left: 100px;
+position: absolute;
+right: 10px;
+
 }
 
 .dolar{
     position: relative;
-    
 }
